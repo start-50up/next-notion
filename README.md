@@ -1,2 +1,1 @@
-# next-notion
-Created with CodeSandbox
+# Practice with Tailwind
