@@ -1,15 +1,17 @@
 import "../styles.css";
 
-const NavItem = props => (
-  <li>
-    <a
-      href={props.href}
-      className="text-sm font-bold text-gray-700 px-2 py-1 hover:bg-gray-300 rounded"
-    >
-      {props.text}
-    </a>
-  </li>
-);
+function NavItem(props) {
+  return (
+    <li>
+      <a
+        href={props.href}
+        className="text-sm font-bold text-gray-700 px-2 py-1 hover:bg-gray-300 rounded"
+      >
+        {props.text}
+      </a>
+    </li>
+  );
+}
 
 const Button = props => (
   <Button
